@@ -9,3 +9,12 @@ Content-Type: application/json
 {
     "content":" hello there"
 }
+
+
+###
+POST https://notes-i1sy.onrender.com/api/notes
+Content-Type: application/json
+
+{
+    "content":" hello there"
+}

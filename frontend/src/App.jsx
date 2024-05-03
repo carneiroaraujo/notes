@@ -20,7 +20,7 @@ const App = () => {
   const [notes, setNotes] = useState([])
   const [newNote, setNewNote] = useState('new note text')
   const [showAll, setShowAll] = useState(true)
-  const [errorMessage, setErrorMessage] = useState('')
+  const [errorMessage, setErrorMessage] = useState(null)
   const visibleNotes = showAll ? notes : notes.filter(note => note.important)
   useEffect(() => {
     console.log("effect");
